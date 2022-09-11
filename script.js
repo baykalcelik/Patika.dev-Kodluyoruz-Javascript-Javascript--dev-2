@@ -197,6 +197,7 @@
 
             // stopPropagation ile bubbling engellendi.
             e.stopPropagation();
+            e.preventDefault();
 
             // li elementi üzerindeki değer alındı.
             let deger = e.target.parentNode.innerText.trim();
